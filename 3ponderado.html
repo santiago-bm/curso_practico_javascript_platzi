@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h2>Calcular el promedio Ponderado</h2>
+    </header>
+
+    <section>
+        <form>
+            <label for="Nota">Ingrese el valor de la nota:</label>
+            <input type="number" id="Nota">
+
+            <br />
+
+            <label for="Credito">Ingrese el numero de credito:</label>
+            <input type="number" id="Credito">
+            
+            <br />
+
+            <input type="button" value="Ingresar" onclick="ingresarObjeto()">
+            <p id="Listado"></p>
+
+        </form>
+    </section>
+
+    <br />
+
+    <section>
+        <form>
+            <input type="button" value="Calcular Ponderado" onclick="calcularPonderado(notes)">
+            <p id="Ponderado"></p>
+        </form>
+    </section>
+    <script src="./3ponderado.js"></script>    
+</body>
+</html>
